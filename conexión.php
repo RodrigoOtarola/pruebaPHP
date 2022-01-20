@@ -1,7 +1,7 @@
 <?php
-$link = 'mysql:host=localhost;dbname=prueba';
-$usuario = 'root'
-$pass = 'root'
+$link = 'mysql:host=localhost;dbname=personal';
+$usuario = 'root';
+$pass = 'root';
 
 try{
 
