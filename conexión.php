@@ -5,8 +5,13 @@ $pass = 'root';
 
 try{
 
-    $mdb = new PDO($link,$usuario,$pass);
+    $pdo = new PDO($link,$usuario,$pass);
+
     echo 'Estamos llegando';
+
+    foreach($pdo->query('SELECT * from personas') as $fila) {
+        print_r($fila);
+    }
 
 }catch (PDOException $e) {
     print "¡Error!: " . $e->getMessage() . "<br/>";
