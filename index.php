@@ -27,7 +27,7 @@ var_dump($resultado);
             <input type="text" placeholder = "Nombre" name ="nombre">
             <input type="text" placeholder="Apellido materno" name="a_paterno">
             <input type="text" placeholder = "Apellido paterno" name="a_paterno">
-            <input type="submit" values ="enviar">
+            <input type="submit" values ="enviar" name="grabar">
         </form>
     </div>
 </body>
