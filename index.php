@@ -22,7 +22,13 @@ var_dump($resultado);
 <body>
     <h1>Hola</h1>
     <div>
-        
+        <form method="POST">
+            <input type="text" placeholder="RUT" name="rut">
+            <input type="text" placeholder = "Nombre" name ="nombre">
+            <input type="text" placeholder="Apellido materno" name="a_paterno">
+            <input type="text" placeholder = "Apellido paterno" name="a_paterno">
+            <input type="submit" values ="enviar">
+        </form>
     </div>
 </body>
 </html>
