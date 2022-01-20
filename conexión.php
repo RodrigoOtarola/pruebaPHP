@@ -1,11 +1,11 @@
 <?php
 $link = 'mysql:host=localhost;dbname=prueba';
 $usuario = 'root'
-$password = 'root'
+$pass = 'root'
 
 try{
 
-    $mdb = new PDO($link,$usuario,$password);
+    $mdb = new PDO($link,$usuario,$pass);
     echo 'Estamos llegando';
 
 }catch (PDOException $e) {
