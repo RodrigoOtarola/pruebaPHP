@@ -11,7 +11,7 @@ try{
 
     foreach($pdo->query('SELECT * from personas') as $fila) {
         print_r($fila);
-    }*/
+    }
 
 }catch (PDOException $e) {
     print "¡Error!: " . $e->getMessage() . "<br/>";
